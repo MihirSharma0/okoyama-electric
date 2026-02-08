@@ -130,7 +130,7 @@ export function ProductShowcase() {
   };
 
   return (
-    <section className="py-24 bg-background">
+    <section id="models" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Section header */}
         <motion.div

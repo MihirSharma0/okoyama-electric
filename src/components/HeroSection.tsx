@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-okoyama.jpg";
 import { ChevronDown } from "lucide-react";
 
@@ -59,12 +60,16 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex flex-wrap gap-4"
           >
-            <Button variant="hero" size="xl">
-              Book a Test Ride
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              Explore Models
-            </Button>
+            <Link to="/test-ride">
+              <Button variant="hero" size="xl">
+                Book a Test Ride
+              </Button>
+            </Link>
+            <a href="#models">
+              <Button variant="heroOutline" size="xl">
+                Explore Models
+              </Button>
+            </a>
           </motion.div>
         </motion.div>
       </div>
