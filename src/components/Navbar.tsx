@@ -4,11 +4,17 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
-  { label: "Vintage 1990", href: "#vintage-1990" },
+  { label: "Sport", href: "#sport" },
   { label: "Sport Pro", href: "#sport-pro" },
   { label: "Eagle Eye", href: "#eagle-eye" },
+  { label: "Trench", href: "#trench" },
+  { label: "Trigger 3x", href: "#trigger-3x" },
+  { label: "Truss 2X", href: "#truss" },
+  { label: "Wexpro Round", href: "#wexpro-round" },
+  { label: "Wexpro Square", href: "#wexpro-square" },
 ];
 
 const quickLinks = [
@@ -32,56 +38,48 @@ export function Navbar() {
       <nav className="container mx-auto flex items-center justify-between h-16 px-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
+          <img src={logo} alt="Okoyama Logo" className="h-10 w-auto object-contain rounded-sm" />
           <span className="font-display text-2xl font-bold tracking-tight">
-            <span className="text-gradient-gold">岡山</span>
             <span className="text-foreground ml-1">OKOYAMA</span>
           </span>
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={window.location.pathname === '/' ? link.href : `/${link.href}`}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-
-          {/* More dropdown */}
-          <div className="relative">
+        <div className="hidden md:flex items-center gap-6 lg:gap-8">
+          {/* Models dropdown */}
+          <div className="relative group">
             <button
-              onClick={() => setShowMore(!showMore)}
-              onBlur={() => setTimeout(() => setShowMore(false), 200)}
-              className="flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors py-4"
             >
-              Quick Links
-              <ChevronDown className={`w-4 h-4 transition-transform ${showMore ? "rotate-180" : ""}`} />
+              Models
+              <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
             </button>
 
-            <AnimatePresence>
-              {showMore && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="absolute top-full right-0 mt-2 w-48 py-2 rounded-lg bg-card border border-border shadow-lg"
-                >
-                  {quickLinks.map((link) => (
-                    <Link
-                      key={link.label}
-                      to={link.href}
-                      className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
+            <div className="absolute top-full left-0 mt-0 w-56 py-2 rounded-xl bg-card border border-border shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+              <div className="grid gap-1 px-1">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.label}
+                    href={window.location.pathname === '/' ? link.href : `/${link.href}`}
+                    className="block px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded-lg transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
+
+          {/* Quick Links directly on Nav */}
+          {quickLinks.map((link) => (
+            <Link
+              key={link.label}
+              to={link.href}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
 
         {/* CTA */}

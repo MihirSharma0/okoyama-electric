@@ -23,18 +23,23 @@ const Compare = () => {
                         <thead>
                             <tr className="border-b border-border">
                                 <th className="p-4 text-left">Features</th>
-                                <th className="p-4 text-center">Vintage 1990</th>
+                                <th className="p-4 text-center">Sport</th>
                                 <th className="p-4 text-center">Sport Pro</th>
                                 <th className="p-4 text-center">Eagle Eye</th>
+                                <th className="p-4 text-center">Trench</th>
+                                <th className="p-4 text-center">Trigger 3x</th>
+                                <th className="p-4 text-center">Truss 2X</th>
+                                <th className="p-4 text-center">Wexpro Round</th>
+                                <th className="p-4 text-center">Wexpro Square</th>
                             </tr>
                         </thead>
                         <tbody>
                             {[
-                                ["Range", "100 km", "120 km", "150 km"],
-                                ["Top Speed", "60 km/h", "85 km/h", "95 km/h"],
-                                ["Charging Time", "4-5 hrs", "3-4 hrs", "3 hrs"],
-                                ["Brakes", "Drum/Drum", "Disc/Drum", "Disc/Disc"],
-                                ["Bluetooth", "No", "Yes", "Yes"],
+                                ["Range", "100 km", "120 km", "150 km", "110 km", "140 km", "115 km", "130 km", "130 km"],
+                                ["Top Speed", "60 km/h", "85 km/h", "95 km/h", "75 km/h", "95 km/h", "70 km/h", "80 km/h", "80 km/h"],
+                                ["Charging Time", "4-5 hrs", "3-4 hrs", "3 hrs", "4 hrs", "3-4 hrs", "4-5 hrs", "3 hrs", "3 hrs"],
+                                ["Brakes", "Drum/Drum", "Disc/Drum", "Disc/Disc", "Disc/Drum", "Disc/Disc", "Drum/Drum", "Disc/Drum", "Disc/Drum"],
+                                ["Bluetooth", "No", "Yes", "Yes", "No", "Yes", "No", "Yes", "Yes"],
                             ].map(([label, ...values], i) => (
                                 <tr key={i} className="border-b border-border/50 hover:bg-white/5 transition-colors">
                                     <td className="p-4 font-medium">{label}</td>

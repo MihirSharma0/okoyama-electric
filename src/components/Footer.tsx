@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.jpeg";
 
 const footerLinks = {
   "Electric Scooters": [
@@ -46,9 +47,9 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-8 lg:mb-0">
-            <a href="/" className="inline-block mb-4">
+            <a href="/" className="flex items-center gap-2 mb-4">
+              <img src={logo} alt="Okoyama Logo" className="h-8 w-auto object-contain rounded-sm" />
               <span className="font-display text-2xl font-bold tracking-tight">
-                <span className="text-gradient-gold">岡山</span>
                 <span className="text-foreground ml-1">OKOYAMA</span>
               </span>
             </a>
