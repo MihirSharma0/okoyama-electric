@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Okoyama Electric - Premium Electric 2 Wheeler Scooters</title>
+        <title>Okoyama Electric</title>
         <meta name="description" content="Discover Okoyama Electric, leading the electric 2 wheeler industry with premium electric scooters featuring advanced Japanese tech for sustainable commuting." />
       </Helmet>
       <Navbar />
