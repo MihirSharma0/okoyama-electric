@@ -3,10 +3,15 @@ import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Helmet } from "react-helmet-async";
 
 const Finance = () => {
     return (
         <div className="min-h-screen bg-background text-foreground">
+            <Helmet>
+                <title>Finance Options | Okoyama Electric Scooters</title>
+                <meta name="description" content="Explore flexible finance options for your new Okoyama Electric Scooter. Easy EMIs and quick approvals." />
+            </Helmet>
             <Navbar />
             <main className="container mx-auto px-4 py-32">
                 <motion.div

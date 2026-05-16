@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 
 const Dealers = () => {
     const dealers = [
@@ -22,6 +23,10 @@ const Dealers = () => {
 
     return (
         <div className="min-h-screen bg-background text-foreground">
+            <Helmet>
+                <title>Find a Dealer | Okoyama Electric Scooters</title>
+                <meta name="description" content="Locate an authorized Okoyama Electric Scooter dealer near you and experience advanced Japanese tech." />
+            </Helmet>
             <Navbar />
             <main className="container mx-auto px-4 py-32">
                 <motion.div

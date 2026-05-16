@@ -48,10 +48,17 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-8 lg:mb-0">
             <a href="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Okoyama Logo" className="h-8 w-auto object-contain rounded-sm" />
-              <span className="font-display text-2xl font-bold tracking-tight">
-                <span className="text-foreground ml-1">OKOYAMA</span>
-              </span>
+              <img src={logo} alt="Okoyama Logo" width={64} height={64} className="h-8 w-auto object-contain rounded-sm" />
+              <div className="flex flex-col justify-center">
+                <span className="font-display text-2xl font-bold tracking-tight leading-none text-foreground ml-1">
+                  OKOYAMA
+                </span>
+                <div className="flex justify-between text-[10px] text-muted-foreground uppercase ml-1 mt-[3px] font-semibold leading-none w-[calc(100%-4px)]">
+                  {"ELECTRIC".split("").map((char, i) => (
+                    <span key={i}>{char}</span>
+                  ))}
+                </div>
+              </div>
             </a>
             <p className="text-sm text-muted-foreground mb-6 max-w-xs">
               Premium electric mobility, crafted with Japanese precision.
@@ -74,9 +81,9 @@ export function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h4 className="font-display font-semibold text-foreground mb-4">
+              <h3 className="font-display font-semibold text-foreground mb-4">
                 {category}
-              </h4>
+              </h3>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link.label}>

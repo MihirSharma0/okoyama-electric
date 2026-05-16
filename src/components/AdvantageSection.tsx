@@ -40,7 +40,7 @@ export function AdvantageSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            The Okoyama <span className="text-gradient-gold">Advantage</span>
+            The Okoyama Electric Scooter <span className="text-gradient-gold">Advantage</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Effortless riding. Worry-free ownership.

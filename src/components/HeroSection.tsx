@@ -43,8 +43,8 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="hero-headline mb-6">
-            <span className="block text-foreground">Ride the</span>
-            <span className="text-gradient-gold">Future.</span>
+            <span className="block text-foreground text-3xl md:text-5xl lg:text-7xl">Okoyama Electric Scooters</span>
+            <span className="text-gradient-gold block text-2xl md:text-4xl lg:text-5xl mt-2 font-medium tracking-tight">Japanese Tech Leading the Electric 2 Wheeler Industry</span>
           </h1>
 
           {/* Subheadline */}

@@ -4,10 +4,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const TestRide = () => {
     return (
         <div className="min-h-screen bg-background text-foreground uppercase-none">
+            <Helmet>
+                <title>Book a Test Ride | Okoyama Electric Scooters</title>
+                <meta name="description" content="Book a test ride for our premium Okoyama Electric Scooters featuring advanced Japanese tech." />
+            </Helmet>
             <Navbar />
             <main className="container mx-auto px-4 py-32">
                 <motion.div

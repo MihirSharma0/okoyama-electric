@@ -1,10 +1,15 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const Compare = () => {
     return (
         <div className="min-h-screen bg-background text-foreground">
+            <Helmet>
+                <title>Compare Models | Okoyama Electric Scooters</title>
+                <meta name="description" content="Compare Okoyama Electric Scooter models to find the perfect Japanese tech 2-wheeler for your needs." />
+            </Helmet>
             <Navbar />
             <main className="container mx-auto px-4 py-32">
                 <motion.div

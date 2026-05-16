@@ -140,7 +140,7 @@ export function ProductShowcase() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            The Okoyama Family
+            The Okoyama Electric Scooter Family
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Discover our diverse range of electric mobility solutions, each crafted for perfection.
@@ -164,6 +164,9 @@ export function ProductShowcase() {
                 <img
                   src={product.image}
                   alt={product.name}
+                  loading="lazy"
+                  width={600}
+                  height={600}
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -221,8 +224,8 @@ export function ProductShowcase() {
                       >
                         Experience Now
                       </Button>
-                      <Link to="/test-ride">
-                        <Button variant="heroOutline" size="icon" className="w-[60px] h-[60px] shrink-0 border-2 rounded-2xl hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                      <Link to="/test-ride" aria-label={`Test ride ${product.name}`}>
+                        <Button variant="heroOutline" size="icon" aria-label={`Book test ride for ${product.name}`} className="w-[60px] h-[60px] shrink-0 border-2 rounded-2xl hover:bg-primary hover:text-primary-foreground transition-all duration-300">
                           <ArrowRight className="w-[30px] h-[30px]" />
                         </Button>
                       </Link>
@@ -258,6 +261,9 @@ export function ProductShowcase() {
                 <img
                   src={selectedProduct.modalImage}
                   alt={selectedProduct.name}
+                  loading="lazy"
+                  width={800}
+                  height={600}
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -266,6 +272,7 @@ export function ProductShowcase() {
               <div className="flex-1 p-6 md:p-10 overflow-y-auto">
                 <button
                   onClick={closeBooking}
+                  aria-label="Close details"
                   className="absolute top-4 right-4 z-50 p-2 rounded-full bg-secondary/50 hover:bg-secondary text-foreground transition-colors md:top-6 md:right-6"
                 >
                   <X className="w-6 h-6" />

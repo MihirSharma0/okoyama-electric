@@ -39,7 +39,7 @@ export function QuickActions() {
           viewport={{ once: true }}
           className="text-sm font-semibold text-muted-foreground uppercase tracking-wider text-center mb-8"
         >
-          Quick Actions
+          Okoyama Electric Scooter Actions
         </motion.h3>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">

@@ -26,10 +26,10 @@ export function ContactForm() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              Get the Best <span className="text-gradient-gold">Offers</span>
+              Get the Best <span className="text-gradient-gold">Offers</span> on Okoyama Electric
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Share your details and our team will reach out with personalized offers for your city.
+              Share your details and our team will reach out with personalized offers on Japanese Tech scooters for your city.
             </p>
 
             {/* Decorative image placeholder */}
@@ -60,11 +60,12 @@ export function ContactForm() {
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone Number</Label>
                 <div className="flex gap-2">
-                  <Select defaultValue="+81">
+                  <Select defaultValue="+91">
                     <SelectTrigger className="w-24 bg-background border-border">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
+                      <SelectItem value="+91">+91</SelectItem>
                       <SelectItem value="+81">+81</SelectItem>
                       <SelectItem value="+1">+1</SelectItem>
                       <SelectItem value="+44">+44</SelectItem>

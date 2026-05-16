@@ -38,10 +38,17 @@ export function Navbar() {
       <nav className="container mx-auto flex items-center justify-between h-16 px-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <img src={logo} alt="Okoyama Logo" className="h-10 w-auto object-contain rounded-sm" />
-          <span className="font-display text-2xl font-bold tracking-tight">
-            <span className="text-foreground ml-1">OKOYAMA</span>
-          </span>
+          <img src={logo} alt="Okoyama Logo" width={80} height={80} className="h-10 w-auto object-contain rounded-sm" />
+          <div className="flex flex-col justify-center">
+            <span className="font-display text-2xl font-bold tracking-tight leading-none text-foreground ml-1">
+              OKOYAMA
+            </span>
+            <div className="flex justify-between text-[10px] text-muted-foreground uppercase ml-1 mt-[3px] font-semibold leading-none w-[calc(100%-4px)]">
+              {"ELECTRIC".split("").map((char, i) => (
+                <span key={i}>{char}</span>
+              ))}
+            </div>
+          </div>
         </a>
 
         {/* Desktop Nav */}

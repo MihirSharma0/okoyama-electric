@@ -1,0 +1,1273 @@
+http://localhost:8080/
+Values are estimated and may vary. The performance
+score is calculated directly from these metrics.See
+calculator.
+0–49 50–89 90–100
+Show audits relevant to:AllFCPLCPTBTCLS
+Performance
+59
+Accessibility
+90
+BestPractices
+100
+SEO
+100
+5 9
+Performance
+METRICS Expand view
+First Contentful Paint
+3.0 s
+Largest Contentful Paint
+6.3 s
+Total Blocking Time
+0 ms
+Cumulative Layout Shift
+0.001
+Speed Index
+3.0 s
+INSIGHTS
+Improve image delivery—Est savings of 5,725 KiB
+Reducing the download time of images can improve the perceived load time of the page and LCP. Learn more about
+optimizing image sizeFCPLCPUnscored
+localhost1st Party 6,418.2 KiB5,724.6 KiB
+…assets/Trench.png 901.7 KiB 815.0 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+607.2 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+636.3 KiB
+…assets/Wexpro_Square.png 893.8 KiB 807.1 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+599.3 KiB
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+URL Resource
+SizeEst Savings
+59
+ 90
+ 100
+ 100
+16/05/2026, 21:07 about:blank
+about:blank 1/23
+compression could improve this image's
+download size.
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+630.8 KiB
+…assets/Wexpro_Round.png 876.4 KiB 789.7 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+581.8 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+618.4 KiB
+…assets/Truss.png 851.5 KiB 764.8 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+557.0 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+600.9 KiB
+…assets/Eagle_Eye.png 805.3 KiB 718.6 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+510.8 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+568.3 KiB
+…assets/Sport_Pro.png 731.8 KiB 645.1 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+437.3 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+516.4 KiB
+…assets/Trigger_3x.png 696.9 KiB 610.2 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+402.4 KiB
+This image file is larger than it needs to
+be (1131x1600) for its displayed
+dimensions (614x868). Use responsive
+images to reduce the image download
+size.
+491.8 KiB
+…assets/vintage-1990.png 384.6 KiB 298.0 KiB
+Using a modern image format (WebP,
+AVIF) or increasing the image
+compression could improve this image's
+download size.
+264.1 KiB
+This image file is larger than it needs to
+be (723x1024) for its displayed
+108.2 KiB
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+img.w-full.h-full.object-contain
+(lo c a lh o st)
+URL Resource
+SizeEst Savings
+16/05/2026, 21:07 about:blank
+about:blank 2/23
+Network dependency tree
+Avoid chaining critical requests by reducing the length of chains, reducing the download size of resources, or
+deferring the download of unnecessary resources to improve page load.LCPUnscored
+Maximum critical path latency:609 ms
+Initial Navigation
+http://localhost:8080 - 13 ms, 3.06 KiB
+/css2?family=…  - 359 ms, 1.05 KiB
+…v20/UcC73FwrK….woff2  - 609 ms, 83.31 KiB
+…v20/UcC73FwrK….woff2  - 588 ms, 47.33 KiB
+…v22/V8mDoQDjQ….woff2  - 588 ms, 21.83 KiB
+/src/main.tsx?t=177…  - 16 ms, 1.54 KiB
+/src/App.tsx?t=177…  - 23 ms, 12.73 KiB
+…pages/Index.tsx?t=177…  - 42 ms, 7.37 KiB
+…components/ContactForm.tsx?t=177…  - 65 ms, 37.36 KiB
+…ui/select.tsx  - 88 ms, 23.24 KiB
+…deps/@radix-ui_react-select.js?v=e035f947  - 93 ms, 92.60 KiB
+…ui/label.tsx  - 87 ms, 4.83 KiB
+…deps/@radix-ui_react-label.js?v=5b1176b7  - 90 ms, 2.56 KiB
+…components/ProductShowcase.tsx?t=177…  - 64 ms, 93.90 KiB
+…assets/Wexpro_Round.jpeg?import  - 88 ms, 0.66 KiB
+…assets/Wexpro_Square.jpeg?import  - 86 ms, 0.66 KiB
+…assets/Eagle_Eye.jpeg?import  - 85 ms, 0.65 KiB
+…assets/Sport_Pro.jpeg?import  - 84 ms, 0.65 KiB
+…assets/Truss_2X.jpeg?import  - 84 ms, 0.65 KiB
+…assets/Trigger_3X.jpeg?import  - 83 ms, 0.65 KiB
+…assets/Trench_X.jpeg?import  - 83 ms, 0.65 KiB
+…assets/Wexpro_Square.png?import  - 82 ms, 0.66 KiB
+…assets/Wexpro_Round.png?import  - 82 ms, 0.66 KiB
+…assets/Truss.png?import  - 81 ms, 0.63 KiB
+…assets/Sport.jpeg?import  - 80 ms, 0.63 KiB
+…assets/Trigger_3x.png?import  - 79 ms, 0.65 KiB
+…assets/Trench.png?import  - 79 ms, 0.63 KiB
+…assets/Eagle_Eye.png?import  - 78 ms, 0.65 KiB
+…assets/vintage-1990.png?import  - 78 ms, 0.67 KiB
+…assets/Sport_Pro.png?import  - 77 ms, 0.65 KiB
+…components/HeroSection.tsx?t=177…  - 60 ms, 21.75 KiB
+…assets/hero-okoyama.jpg?import  - 77 ms, 0.67 KiB
+…components/AdvantageSection.tsx?t=177…  - 63 ms, 14.91 KiB
+…components/QuickActions.tsx?t=177…  - 61 ms, 14.38 KiB
+…components/FeatureMarquee.tsx  - 60 ms, 8.13 KiB
+…pages/Dealers.tsx?t=177…  - 47 ms, 19.72 KiB
+…deps/lucide-react.js?v=6e47ca36  - 92 ms, 1,132.11 KiB
+…ui/toaster.tsx  - 35 ms, 7.05 KiB
+dimensions (613x868). Use responsive
+images to reduce the image download
+size.
+…assets/logo.jpeg 276.3 KiB 276.0 KiB
+This image file is larger than it needs to
+be (2560x2560) for its displayed
+dimensions (80x80). Use responsive
+images to reduce the image download
+size.
+276.0 KiB
+img.h-10.w-auto.object-contain.rounded-sm
+(lo c a lh o st)
+(fo n ts.g o o g le a p is.c o m )
+(fo n ts.g sta tic .c o m )
+(fo n ts.g sta tic .c o m )
+(fo n ts.g sta tic .c o m )
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Resource
+SizeEst Savings
+16/05/2026, 21:07 about:blank
+about:blank 3/23
+…ui/toast.tsx  - 49 ms, 17.50 KiB
+…deps/@radix-ui_react-toast.js?v=38c9f276  - 70 ms, 26.79 KiB
+…deps/chunk-CS6ACPL6.js?v=0e4ba5be  - 90 ms, 7.96 KiB
+…deps/class-variance-authority.js?v=89f74a8f  - 64 ms, 2.59 KiB
+…deps/chunk-U7P2NEEE.js?v=0e4ba5be  - 86 ms, 0.91 KiB
+…hooks/use-toast.ts  - 47 ms, 13.54 KiB
+…pages/TestRide.tsx?t=177…  - 40 ms, 16.98 KiB
+…ui/button.tsx  - 56 ms, 9.49 KiB
+…deps/@radix-ui_react-slot.js?v=dc1ae348  - 77 ms, 0.80 KiB
+…deps/chunk-FF6ZKGQN.js?v=0e4ba5be  - 89 ms, 5.22 KiB
+…components/Navbar.tsx?t=177…  - 55 ms, 37.26 KiB
+…assets/logo.jpeg?import  - 77 ms, 0.63 KiB
+…deps/framer-motion.js?v=ea2e3900  - 68 ms, 415.86 KiB
+…ui/textarea.tsx  - 57 ms, 4.71 KiB
+…ui/input.tsx  - 57 ms, 4.88 KiB
+…components/Footer.tsx?t=177…  - 56 ms, 28.01 KiB
+…ui/tooltip.tsx  - 36 ms, 6.14 KiB
+…lib/utils.ts  - 54 ms, 1.08 KiB
+…deps/tailwind-merge.js?v=83f59024  - 76 ms, 71.25 KiB
+…deps/clsx.js?v=29c647f3  - 73 ms, 0.53 KiB
+…deps/@radix-ui_react-tooltip.js?v=8f20b448  - 52 ms, 23.54 KiB
+…deps/chunk-F6LE7H43.js?v=0e4ba5be  - 73 ms, 23.65 KiB
+…deps/chunk-I5P2TV6F.js?v=0e4ba5be  - 72 ms, 5.43 KiB
+…deps/chunk-5T2EPWID.js?v=0e4ba5be  - 72 ms, 74.18 KiB
+…deps/chunk-TKKDXAJF.js?v=0e4ba5be  - 71 ms, 1.48 KiB
+…deps/react.js?v=c2b37196  - 52 ms, 0.51 KiB
+…deps/@tanstack_react-query.js?v=d5aca2f6  - 36 ms, 127.10 KiB
+…deps/chunk-S77I6LSE.js?v=0e4ba5be  - 55 ms, 36.79 KiB
+…ui/sonner.tsx  - 35 ms, 5.21 KiB
+…deps/sonner.js?v=c1332cfd  - 52 ms, 39.92 KiB
+…deps/next-themes.js?v=2f26ad56  - 52 ms, 4.97 KiB
+…pages/NotFound.tsx  - 49 ms, 6.22 KiB
+…components/ScrollToTop.tsx  - 46 ms, 3.30 KiB
+…pages/Finance.tsx?t=177…  - 46 ms, 27.52 KiB
+…deps/react-router-dom.js?v=b369c919  - 44 ms, 205.38 KiB
+…pages/Compare.tsx?t=177…  - 43 ms, 23.89 KiB
+…deps/react-dom_client.js?v=6a236c90  - 22 ms, 1.39 KiB
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be  - 45 ms, 906.67 KiB
+…deps/react_jsx-dev-runtime.js?v=d72e4816  - 22 ms, 36.47 KiB
+…deps/chunk-3TFVT2CW.js?v=0e4ba5be  - 32 ms, 76.30 KiB
+…deps/chunk-4MBMRILA.js?v=0e4ba5be  - 32 ms, 2.83 KiB
+/src/index.css?t=177…  - 24 ms, 90.98 KiB
+/@vite/client  - 17 ms, 134.76 KiB
+…client/env.mjs  - 24 ms, 4.21 KiB
+/@react-refresh  - 21 ms, 115.10 KiB
+Preconnected origins
+preconnect hints help the browser establish a connection earlier in the page load, saving time when the first
+request for that origin is made. The following are the origins that the page preconnected to.
+no origins were preconnected
+Preconnect candidates
+Add preconnect hints to your most important origins, but try to use no more than 4.
+No additional origins are good candidates for preconnecting
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+16/05/2026, 21:07 about:blank
+about:blank 4/23
+Document request latency—Est savings of 2 KiB
+Your first network request is the most important. Reduce its latency by avoiding redirects, ensuring a fast server
+response, and enabling text compression.FCPLCPUnscored
+Avoids redirects
+Server responds quickly (observed 1 ms)
+No compression applied
+Layout shift culprits
+Layout shifts occur when elements move absent any user interaction. Investigate the causes of layout shifts, such as
+elements being added, removed, or their fonts changing as the page loads.CLSUnscored
+LCP breakdown
+Each subpart has specific improvement strategies. Ideally, most of the LCP time should be spent on loading the
+resources, not within delays.LCPUnscored
+3rd parties
+3rd party code can significantly impact load performance. Reduce and defer loading of 3rd party code to prioritize
+your page's content.Unscored
+These insights are also available in the Chrome DevTools Performance Panel - record a trace to view more detailed
+information.
+Total 0.001
+0.001
+…v20/UcC73FwrK….woff2 Web font
+…v22/V8mDoQDjQ….woff2 Web font
+div.hidden.md:flex.items-center.gap-6.lg:gap-8
+(fonts.g sta tic .c om )
+(fonts.g sta tic .c om )
+Time to first byte 0 ms
+Element render delay 650 ms
+span.text-gradient-gold.block.text-2xl.md:text-4xl.lg:text-5xl.mt-2.font-medium.tracking-tight
+Google FontsCdn 154 KiB 0 ms
+…v20/UcC73FwrK….woff2 83 KiB 0 ms
+…v20/UcC73FwrK….woff2 47 KiB 0 ms
+…v22/V8mDoQDjQ….woff2 22 KiB 0 ms
+/css2?family=… 1 KiB 0 ms
+(fo n ts.g sta tic .c o m )
+(fo n ts.g sta tic .c o m )
+(fo n ts.g sta tic .c o m )
+(fo n ts.g o o g le a p is.c o m )
+DIAGNOSTICS
+Minify JavaScript—Est savings of 1,436 KiB
+Minifying JavaScript files can reduce payload sizes and script parse time. Learn how to minify JavaScript.FCPLCPUnscored
+Element Layout shiftscore
+Subpart Duration
+3rd party Transfer size Main thread time
+16/05/2026, 21:07 about:blank
+about:blank 5/23
+localhost1st Party 3,992.4 KiB 1,436.3 KiB
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be 906.4 KiB 331.7 KiB
+…deps/lucide-react.js?v=6e47ca36 1,131.8 KiB 207.0 KiB
+…deps/framer-motion.js?v=ea2e3900 415.6 KiB 117.8 KiB
+/@vite/client 134.5 KiB 117.0 KiB
+/@react-refresh 114.8 KiB 104.6 KiB
+…components/ProductShowcase.tsx?t=177… 93.6 KiB 70.3 KiB
+…deps/react-router-dom.js?v=b369c919 205.1 KiB 48.3 KiB
+…deps/tailwind-merge.js?v=83f59024 71.0 KiB 39.4 KiB
+…deps/@tanstack_react-query.js?v=d5aca2f6 126.8 KiB 33.4 KiB
+…deps/chunk-3TFVT2CW.js?v=0e4ba5be 76.0 KiB 31.0 KiB
+…components/ContactForm.tsx?t=177… 37.1 KiB 26.6 KiB
+…components/Navbar.tsx?t=177… 37.0 KiB 26.0 KiB
+…deps/@radix-ui_react-select.js?v=e035f947 92.3 KiB 23.6 KiB
+…components/Footer.tsx?t=177… 27.7 KiB 19.5 KiB
+…pages/Finance.tsx?t=177… 27.2 KiB 19.5 KiB
+…deps/chunk-5T2EPWID.js?v=0e4ba5be 73.9 KiB 19.3 KiB
+…pages/Compare.tsx?t=177… 23.6 KiB 17.0 KiB
+…components/HeroSection.tsx?t=177… 21.5 KiB 14.5 KiB
+…ui/select.tsx 23.0 KiB 14.2 KiB
+…deps/chunk-S77I6LSE.js?v=0e4ba5be 36.5 KiB 14.2 KiB
+…deps/react_jsx-dev-runtime.js?v=d72e4816 36.2 KiB 14.0 KiB
+…pages/Dealers.tsx?t=177… 19.4 KiB 13.3 KiB
+…hooks/use-toast.ts 13.3 KiB 11.1 KiB
+…pages/TestRide.tsx?t=177… 16.7 KiB 10.9 KiB
+…ui/toast.tsx 17.2 KiB 10.5 KiB
+…components/AdvantageSection.tsx?t=177… 14.6 KiB 9.5 KiB
+…components/QuickActions.tsx?t=177… 14.1 KiB 9.3 KiB
+/src/App.tsx?t=177… 12.4 KiB 7.6 KiB
+…deps/@radix-ui_react-toast.js?v=38c9f276 26.5 KiB 6.7 KiB
+…ui/button.tsx 9.2 KiB 5.4 KiB
+…deps/chunk-F6LE7H43.js?v=0e4ba5be 23.3 KiB 5.3 KiB
+…deps/@radix-ui_react-tooltip.js?v=8f20b448 23.2 KiB 5.0 KiB
+…deps/sonner.js?v=c1332cfd 39.6 KiB 4.9 KiB
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Transfer Size Est Savings
+16/05/2026, 21:07 about:blank
+about:blank 6/23
+Reduce unused JavaScript—Est savings of 1,091 KiB
+Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network
+activity. Learn how to reduce unused JavaScript.FCPLCPUnscored
+…components/FeatureMarquee.tsx 7.8 KiB 4.5 KiB
+…ui/toaster.tsx 6.8 KiB 3.7 KiB
+…pages/Index.tsx?t=177… 7.1 KiB 3.6 KiB
+…client/env.mjs 3.9 KiB 3.5 KiB
+…ui/tooltip.tsx 5.9 KiB 3.0 KiB
+…pages/NotFound.tsx 5.9 KiB 2.9 KiB
+…ui/sonner.tsx 4.9 KiB 2.5 KiB
+…ui/label.tsx 4.5 KiB 2.1 KiB
+…ui/input.tsx 4.6 KiB 2.1 KiB
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+localhost1st Party 3,027.7 KiB 1,091.2 KiB
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be 906.4 KiB 387.8 KiB
+…react-dom/cjs/react-dom.development.js 887.9 KiB 384.2 KiB
+…scheduler/cjs/scheduler.development.js 16.5 KiB 3.7 KiB
+…deps/framer-motion.js?v=ea2e3900 415.6 KiB 245.0 KiB
+../../motion-dom/src/projection/node/create-projection-node.ts 39.0 KiB 32.5 KiB
+../../framer-motion/src/gestures/drag/VisualElementDragControls.ts 13.6 KiB 13.5 KiB
+../../motion-dom/src/layout/LayoutAnimationBuilder.ts 7.3 KiB 7.2 KiB
+../../framer-motion/src/animation/sequence/create.ts 6.6 KiB 6.5 KiB
+../../framer-motion/src/gestures/pan/PanSession.ts 6.4 KiB 6.3 KiB
+…deps/react-router-dom.js?v=b369c919 205.1 KiB 158.0 KiB
+…@remix-run/router/router.ts 84.7 KiB 83.6 KiB
+…react-router-dom/index.tsx 30.1 KiB 25.6 KiB
+…@remix-run/router/utils.ts 20.7 KiB 9.7 KiB
+…react-router/lib/hooks.tsx 20.8 KiB 8.7 KiB
+…@remix-run/router/history.ts 8.6 KiB 5.1 KiB
+…deps/@tanstack_react-query.js?v=d5aca2f6 126.8 KiB 109.9 KiB
+…query-core/src/queryObserver.ts 18.2 KiB 17.3 KiB
+…query-core/src/query.ts 12.2 KiB 11.9 KiB
+…query-core/src/queryClient.ts 9.3 KiB 8.0 KiB
+…query-core/src/queriesObserver.ts 7.8 KiB 7.3 KiB
+…query-core/src/utils.ts 6.7 KiB 6.6 KiB
+…deps/chunk-5T2EPWID.js?v=0e4ba5be 73.9 KiB 67.7 KiB
+…floating-ui/core/dist/floating-ui.core.mjs 23.1 KiB 22.9 KiB
+…floating-ui/dom/dist/floating-ui.dom.mjs 20.0 KiB 19.4 KiB
+…floating-ui/react-dom/dist/floating-ui.react-dom.mjs 7.4 KiB 7.0 KiB
+…radix-ui/react-popper/src/popper.tsx 8.7 KiB 6.8 KiB
+…floating-ui/utils/dist/floating-ui.utils.dom.mjs 5.4 KiB 4.9 KiB
+…deps/@radix-ui_react-select.js?v=e035f947 92.3 KiB 62.4 KiB
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Transfer Size Est Savings
+URL Transfer
+Size Est Savings
+16/05/2026, 21:07 about:blank
+about:blank 7/23
+Page prevented back/forward cache restoration—1 failure reason
+Many navigations are performed by going back to a previous page, or forwards again. The back/forward cache
+(bfcache) can speed up these return navigations. Learn more about the bfcacheUnscored
+Image elements do not have explicit width and height
+Set an explicit width and height on image elements to reduce layout shifts and improve CLS. Learn how to set image
+dimensionsCLSUnscored
+Reduce unused CSS—Est savings of 13 KiB
+Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes
+consumed by network activity. Learn how to reduce unused CSS.FCPLCPUnscored
+Avoid enormous network payloads—Total size was 11,029 KiB
+Large network payloads cost users real money and are highly correlated with long load times. Learn how to reduce
+payload sizes.Unscored
+…@radix-ui/react-select/src/select.tsx 42.0 KiB 24.1 KiB
+…@radix-ui/react-focus-scope/src/focus-scope.tsx 7.5 KiB 7.0 KiB
+…react-remove-scroll/dist/es2015/SideEffect.js 6.6 KiB 6.5 KiB
+…aria-hidden/dist/es2015/index.js 3.9 KiB 3.7 KiB
+…react-remove-scroll/dist/es2015/handleScroll.js 3.5 KiB 3.2 KiB
+…deps/chunk-3TFVT2CW.js?v=0e4ba5be 76.0 KiB 36.4 KiB
+…cjs/react.development.js 75.2 KiB 36.4 KiB
+…deps/lucide-react.js?v=6e47ca36 1,131.8 KiB 24.0 KiB
+…lucide-react/dist/esm/icons/index.js 48.0 KiB 24.0 KiB
+(lo c a lh o st)
+(lo c a lh o st)
+Pages with WebSocket cannot enter back/forward cache. Pending browser support
+http://localhost:8080
+localhost1st Party
+…assets/logo.jpeg
+…assets/logo.jpeg
+img.h-10.w-auto.object-contain.rounded-sm
+(lo c a lh o st)
+img.h-8.w-auto.object-contain.rounded-sm
+(lo c a lh o st)
+@import url('https://fonts.googleapis.com/css2?
+family=Inter:wght@300;400;500;600;700&family=Space+G… 16.9 KiB 12.9 KiB
+localhost1st Party 8,213.9 KiB
+URL Transfer
+Size Est Savings
+Failure reason Failure type
+URL
+URL Transfer
+Size
+Est
+Savings
+URL Transfer
+Size
+16/05/2026, 21:07 about:blank
+about:blank 8/23
+Avoid long main-thread tasks—1 long task found
+Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. Learn how to avoid
+long main-thread tasksTBTUnscored
+More information about the performance of your application. These numbers don't directly affect the Performance score.
+…deps/lucide-react.js?v=6e47ca36 1,132.1 KiB
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be 906.7 KiB
+…assets/Trench.png 902.0 KiB
+…assets/Wexpro_Square.png 894.1 KiB
+…assets/Wexpro_Round.png 876.6 KiB
+…assets/Truss.png 851.8 KiB
+…assets/Eagle_Eye.png 805.6 KiB
+…assets/Sport_Pro.png 732.1 KiB
+…assets/Trigger_3x.png 697.1 KiB
+…deps/framer-motion.js?v=ea2e3900 415.9 KiB
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+Unattributable 164 ms 99 ms
+PASSED AUDITS(16) Hide
+Use efficient cache lifetimes
+A long cache lifetime can speed up repeat visits to your page. Learn more about caching.FCPLCPUnscored
+Optimize DOM size
+A large DOM can increase the duration of style calculations and layout reflows, impacting page responsiveness. A
+large DOM will also increase memory usage. Learn how to avoid an excessive DOM size.Unscored
+Duplicated JavaScript
+Remove large, duplicate JavaScript modules from bundles to reduce unnecessary bytes consumed by network
+activity.FCPLCPUnscored
+Font display
+Consider setting font-display to swap or optional to ensure text is consistently visible. swap can be further
+optimized to mitigate layout shifts with font metric overrides.Unscored
+Forced reflow
+A forced reflow occurs when JavaScript queries geometric properties (such as offsetWidth) after styles have been
+invalidated by a change to the DOM state. This can result in poor performance. Learn more about forced reflows and
+Total elements 546
+DOM depth 16
+Most children 16
+path
+div.marquee-content
+URL Transfer
+Size
+URL Start
+Time Duration
+Statistic Element Value
+16/05/2026, 21:07 about:blank
+about:blank 9/23
+possible mitigations.Unscored
+INP breakdown
+Start investigating how to improve INP by looking at the longest subpart.Unscored
+LCP request discovery
+Optimize LCP by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loadingUnscored
+Legacy JavaScript
+Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for
+modern browsers. Consider modifying your JavaScript build process to not transpile Baseline features, unless you
+know you must support older browsers. Learn why most sites can deploy ES6+ code without transpilingFCPLCPUnscored
+Modern HTTP
+HTTP/2 and HTTP/3 offer many benefits over HTTP/1.1, such as multiplexing. Learn more about using modern HTTP.FCPLCPUnscored
+Render-blocking requests
+Requests are blocking the page's initial render, which may delay LCP. Deferring or inlining can move these network
+requests out of the critical path.FCPLCPUnscored
+Optimize viewport for mobile
+Tap interactions may be delayed by up to 300 ms if the viewport is not optimized for mobile.Unscored
+Minify CSS
+Minifying CSS files can reduce network payload sizes. Learn how to minify CSS.FCPLCPUnscored
+User Timing marks and measures
+Consider instrumenting your app with the User Timing API to measure your app's real-world performance during key
+user experiences. Learn more about User Timing marks.Unscored
+JavaScript execution time—0.1 s
+Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads
+helps with this. Learn how to reduce Javascript execution time.TBTUnscored
+Minimizes main-thread work—0.6 s
+meta
+localhost1st Party 416 ms 134 ms 2 ms
+…deps/framer-motion.js?v=ea2e3900 225 ms 58 ms 0 ms
+http://localhost:8080 134 ms 26 ms 0 ms
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be 57 ms 50 ms 1 ms
+Unattributable 153 ms 4 ms 0 ms
+Unattributable 153 ms 4 ms 0 ms
+(lo c a lh o st)
+(lo c a lh o st)
+URL
+Total
+CPU
+Time
+Script Evaluation Script Parse
+16/05/2026, 21:07 about:blank
+about:blank 10/23
+These checks highlight opportunities to improve the accessibility of
+your web app. Automatic detection can only detect a subset of issues
+and does not guarantee the accessibility of your web app, so manual
+testing is also encouraged.
+Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads
+helps with this. Learn how to minimize main-thread workTBTUnscored
+Avoid non-composited animations
+Animations which are not composited can be janky and increase CLS. Learn how to avoid non-composited
+animationsCLSUnscored
+Other 306 ms
+Script Evaluation 140 ms
+Style & Layout 90 ms
+Rendering 44 ms
+Script Parsing & Compilation 5 ms
+Parse HTML & CSS 1 ms
+Accessibility
+90
+NAMES AND LABELS
+Buttons do not have an accessible name
+When a button doesn't have an accessible name, screen readers announce it as "button", making it unusable for
+users who rely on screen readers. Learn how to make buttons more accessible.
+Links do not have a discernible name
+Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the
+navigation experience for screen reader users. Learn how to make links accessible.
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.ring-offset-bac…
+button.flex.h-10.items-center.justify-between.rounded-md.border.px-3.py-2.text-sm.ring-offse…
+button.flex.h-10.w-full.items-center.justify-between.rounded-md.border.px-3.py-2.text-sm.ring…
+Category Time Spent
+Failing Elements
+16/05/2026, 21:07 about:blank
+about:blank 11/23
+These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for
+users of assistive technology, like a screen reader.
+a
+a
+a
+a
+a
+a
+a
+a
+NAVIGATION
+Heading elements are not in a sequentially-descending order
+Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to
+navigate and understand when using assistive technologies. Learn more about heading order.
+These are opportunities to improve keyboard navigation in your application.
+h4.font-display.font-semibold.text-foreground.mb-4
+BEST PRACTICES
+Identical links have the same purpose.
+Links with the same destination should have the same description, to help users understand the link's purpose and
+decide whether to follow it. Learn more about identical links.Unscored
+These items highlight common accessibility best practices.
+a.text-sm.font-medium.text-muted-foreground.hover:text-foreground.transition-colors.whitesp…
+a.text-sm.text-muted-foreground.hover:text-foreground.transition-colors
+ADDITIONAL ITEMS TO MANUALLY CHECK(10) Hide
+Interactive controls are keyboard focusable
+Custom interactive controls are keyboard focusable and display a focus indicator. Learn how to make custom
+controls focusable.Unscored
+Interactive elements indicate their purpose and state
+Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-
+interactive elements. Learn how to decorate interactive elements with affordance hints.Unscored
+Failing Elements
+Failing Elements
+Failing Elements
+16/05/2026, 21:07 about:blank
+about:blank 12/23
+The page has a logical tab order
+Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. Learn more
+about logical tab ordering.Unscored
+Visual order on the page follows DOM order
+DOM order matches the visual order, improving navigation for assistive technology. Learn more about DOM and
+visual ordering.Unscored
+User focus is not accidentally trapped in a region
+A user can tab into and out of any control or region without accidentally trapping their focus. Learn how to avoid
+focus traps.Unscored
+The user's focus is directed to new content added to the page
+If new content, such as a dialog, is added to the page, the user's focus is directed to it. Learn how to direct focus to
+new content.Unscored
+HTML5 landmark elements are used to improve navigation
+Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive
+technology. Learn more about landmark elements.Unscored
+Offscreen content is hidden from assistive technology
+Offscreen content is hidden with display: none or aria-hidden=true. Learn how to properly hide offscreen content.Unscored
+Custom controls have associated labels
+Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. Learn more about
+custom controls and labels.Unscored
+Custom controls have ARIA roles
+Custom interactive controls have appropriate ARIA roles. Learn how to add roles to custom controls.Unscored
+These items address areas which an automated testing tool cannot cover. Learn more in our guide on conducting an
+accessibility review.
+PASSED AUDITS(22) Hide
+[aria-*] attributes match their roles
+Each ARIA role supports a specific subset of aria-* attributes. Mismatching these invalidates the aria-*
+attributes. Learn how to match ARIA attributes to their roles.
+[aria-hidden="true"] is not present on the document <body>
+Assistive technologies, like screen readers, work inconsistently when aria-hidden="true" is set on the document
+<body>. Learn how aria-hidden affects the document body.
+[role]s have all required [aria-*] attributes
+Some ARIA roles have required attributes that describe the state of the element to screen readers. Learn more about
+roles and required attributes.
+[role] values are valid
+ARIA roles must have valid values in order to perform their intended accessibility functions. Learn more about valid
+ARIA roles.
+[aria-*] attributes have valid values
+Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. Learn more about valid
+values for ARIA attributes.
+16/05/2026, 21:07 about:blank
+about:blank 13/23
+[aria-*] attributes are valid and not misspelled
+Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. Learn more about valid
+ARIA attributes.
+Image elements have [alt] attributes
+Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an
+empty alt attribute. Learn more about the alt attribute.
+Form elements have associated labels
+Labels ensure that form controls are announced properly by assistive technologies, like screen readers. Learn more
+about form element labels.
+[user-scalable="no"] is not used in the <meta name="viewport"> element and the [maximum-scale] attribute is
+not less than 5.
+Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the
+contents of a web page. Learn more about the viewport meta tag.
+ARIA attributes are used as specified for the element's role
+Some ARIA attributes are only allowed on an element under certain conditions. Learn more about conditional ARIA
+attributes.
+[aria-hidden="true"] elements do not contain focusable descendents
+Focusable descendents within an [aria-hidden="true"] element prevent those interactive elements from being
+available to users of assistive technologies like screen readers. Learn how aria-hidden affects focusable elements.
+Elements use only permitted ARIA attributes
+Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to
+users of assistive technologies. Learn more about prohibited ARIA roles.
+Background and foreground colors have a sufficient contrast ratio
+Low-contrast text is difficult or impossible for many users to read. Learn how to provide sufficient color contrast.
+Document has a <title> element
+The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if
+a page is relevant to their search. Learn more about document titles.
+<html> element has a [lang] attribute
+If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the
+user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen
+reader might not announce the page's text correctly. Learn more about the lang attribute.
+<html> element has a valid value for its [lang] attribute
+Specifying a valid BCP 47 language helps screen readers announce text properly. Learn how to use the lang
+attribute.
+Lists contain only <li> elements and script supporting elements (<script> and <template>).
+Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output.
+Learn more about proper list structure.
+List items (<li>) are contained within <ul>, <ol> or <menu> parent elements
+Screen readers require list items (<li>) to be contained within a parent <ul>, <ol> or <menu> to be announced
+properly. Learn more about proper list structure.
+No element has a [tabindex] value greater than 0
+16/05/2026, 21:07 about:blank
+about:blank 14/23
+A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates
+frustrating experiences for users who rely on assistive technologies. Learn more about the tabindex attribute.
+Touch targets have sufficient size and spacing.
+Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate
+the targets. Learn more about touch targets.
+Document has a main landmark.
+One main landmark helps screen reader users navigate a web page. Learn more about landmarks.
+Deprecated ARIA roles were not used
+Deprecated ARIA roles may not be processed correctly by assistive technology. Learn more about deprecated ARIA
+roles.
+NOT APPLICABLE(34) Hide
+[accesskey] values are unique
+Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique.
+Learn more about access keys.Unscored
+button, link, and menuitem elements have accessible names
+When an element doesn't have an accessible name, screen readers announce it with a generic name, making it
+unusable for users who rely on screen readers. Learn how to make command elements more accessible.Unscored
+Elements with role="dialog" or role="alertdialog" have accessible names.
+ARIA dialog elements without accessible names may prevent screen readers users from discerning the purpose of
+these elements. Learn how to make ARIA dialog elements more accessible.Unscored
+ARIA input fields have accessible names
+When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it
+unusable for users who rely on screen readers. Learn more about input field labels.Unscored
+ARIA meter elements have accessible names
+When a meter element doesn't have an accessible name, screen readers announce it with a generic name, making it
+unusable for users who rely on screen readers. Learn how to name meter elements.Unscored
+ARIA progressbar elements have accessible names
+When a progressbar element doesn't have an accessible name, screen readers announce it with a generic name,
+making it unusable for users who rely on screen readers. Learn how to label progressbar elements.Unscored
+Elements with an ARIA [role] that require children to contain a specific [role] have all required children.
+Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. Learn
+more about roles and required children elements.Unscored
+[role]s are contained by their required parent element
+Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility
+functions. Learn more about ARIA roles and required parent element.Unscored
+Elements with the role=text attribute do not have focusable descendents.
+Adding role=text around a text node split by markup enables VoiceOver to treat it as one phrase, but the
+element's focusable descendents will not be announced. Learn more about the role=text attribute.Unscored
+ARIA toggle fields have accessible names
+16/05/2026, 21:07 about:blank
+about:blank 15/23
+When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it
+unusable for users who rely on screen readers. Learn more about toggle fields.Unscored
+ARIA tooltip elements have accessible names
+When a tooltip element doesn't have an accessible name, screen readers announce it with a generic name, making it
+unusable for users who rely on screen readers. Learn how to name tooltip elements.Unscored
+ARIA treeitem elements have accessible names
+When a treeitem element doesn't have an accessible name, screen readers announce it with a generic name,
+making it unusable for users who rely on screen readers. Learn more about labeling treeitem elements.Unscored
+The page contains a heading, skip link, or landmark region
+Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. Learn more about
+bypass blocks.Unscored
+<dl>'s contain only properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements.
+When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. Learn
+how to structure definition lists correctly.Unscored
+Definition list items are wrapped in <dl> elements
+Definition list items (<dt> and <dd>) must be wrapped in a parent <dl> element to ensure that screen readers can
+properly announce them. Learn how to structure definition lists correctly.Unscored
+ARIA IDs are unique
+The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies.
+Learn how to fix duplicate ARIA IDs.Unscored
+No form fields have multiple labels
+Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which
+use either the first, the last, or all of the labels. Learn how to use form labels.Unscored
+<frame> or <iframe> elements have a title
+Screen reader users rely on frame titles to describe the contents of frames. Learn more about frame titles.Unscored
+<html> element has an [xml:lang] attribute with the same base language as the [lang] attribute.
+If the webpage does not specify a consistent language, then the screen reader might not announce the page's text
+correctly. Learn more about the lang attribute.Unscored
+Input buttons have discernible text.
+Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of
+the input button. Learn more about input buttons.Unscored
+<input type="image"> elements have [alt] text
+When an image is being used as an <input> button, providing alternative text can help screen reader users
+understand the purpose of the button. Learn about input image alt text.Unscored
+Links are distinguishable without relying on color.
+Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the
+experience for users with low vision. Learn how to make links distinguishable.Unscored
+The document does not use <meta http-equiv="refresh">
+Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This
+may create a frustrating or confusing experience. Learn more about the refresh meta tag.Unscored
+16/05/2026, 21:07 about:blank
+about:blank 16/23
+<object> elements have alternate text
+Screen readers cannot translate non-text content. Adding alternate text to <object> elements helps screen readers
+convey meaning to users. Learn more about alt text for object elements.Unscored
+Select elements have associated label elements.
+Form elements without effective labels can create frustrating experiences for screen reader users. Learn more about
+the select element.Unscored
+Skip links are focusable.
+Including a skip link can help users skip to the main content to save time. Learn more about skip links.Unscored
+Cells in a <table> element that use the [headers] attribute refer to table cells within the same table.
+Screen readers have features to make navigating tables easier. Ensuring <td> cells using the [headers] attribute
+only refer to other cells in the same table may improve the experience for screen reader users. Learn more about the
+headers attribute.Unscored
+<th> elements and elements with [role="columnheader"/"rowheader"] have data cells they describe.
+Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of
+cells may improve the experience for screen reader users. Learn more about table headers.Unscored
+[lang] attributes have a valid value
+Specifying a valid BCP 47 language on elements helps ensure that text is pronounced correctly by a screen reader.
+Learn how to use the lang attribute.Unscored
+<video> elements contain a <track> element with [kind="captions"]
+When a video provides a caption it is easier for deaf and hearing impaired users to access its information. Learn
+more about video captions.Unscored
+Tables have different content in the summary attribute and <caption>.
+The summary attribute should describe the table structure, while <caption> should have the onscreen title.
+Accurate table mark-up helps users of screen readers. Learn more about summary and caption.Unscored
+All heading elements contain content.
+A heading with no content or inaccessible text prevent screen reader users from accessing information on the
+page's structure. Learn more about headings.Unscored
+Uses ARIA roles only on compatible elements
+Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can
+interfere with the accessibility of the web page. Learn more about ARIA roles.Unscored
+Image elements do not have [alt] attributes that are redundant text.
+Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as
+the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read
+twice. Learn more about the alt attribute.Unscored
+Best Practices
+100
+TRUST AND SAFETY
+Ensure CSP is effective against XSS attacks
+16/05/2026, 21:07 about:blank
+about:blank 17/23
+A strong Content Security Policy (CSP) significantly reduces the risk of cross-site scripting (XSS) attacks. Learn how
+to use a CSP to prevent XSSUnscored
+Use a strong HSTS policy
+Deployment of the HSTS header significantly reduces the risk of downgrading HTTP connections and eavesdropping
+attacks. A rollout in stages, starting with a low max-age is recommended. Learn more about using a strong HSTS
+policy.Unscored
+Ensure proper origin isolation with COOP
+The Cross-Origin-Opener-Policy (COOP) can be used to isolate the top-level window from other documents such as
+pop-ups. Learn more about deploying the COOP header.Unscored
+Mitigate clickjacking with XFO or CSP
+The X-Frame-Options (XFO) header or the frame-ancestors directive in the Content-Security-Policy (CSP)
+header control where a page can be embedded. These can mitigate clickjacking attacks by blocking some or all sites
+from embedding the page. Learn more about mitigating clickjacking.Unscored
+Mitigate DOM-based XSS with Trusted Types
+The require-trusted-types-for directive in the Content-Security-Policy (CSP) header instructs user
+agents to control the data passed to DOM XSS sink functions. Learn more about mitigating DOM-based XSS with
+Trusted Types.Unscored
+No CSP found in enforcement mode High
+No HSTS header found High
+No COOP header found High
+No frame control policy found High
+No `Content-Security-Policy` header with Trusted Types directive found High
+PASSED AUDITS(13) Hide
+Uses HTTPS
+All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding mixed
+content, where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS
+prevents intruders from tampering with or passively listening in on the communications between your app and your
+users, and is a prerequisite for HTTP/2 and many new web platform APIs. Learn more about HTTPS.
+Avoids deprecated APIs
+Deprecated APIs will eventually be removed from the browser. Learn more about deprecated APIs.
+Avoids third-party cookies
+Third-party cookies may be blocked in some contexts. Learn more about preparing for third-party cookie
+Description Directive Severity
+Description Directive Severity
+Description Directive Severity
+Description Severity
+Description Severity
+16/05/2026, 21:07 about:blank
+about:blank 18/23
+restrictions.
+Allows users to paste into input fields
+Preventing input pasting is a bad practice for the UX, and weakens security by blocking password managers.Learn
+more about user-friendly input fields.
+Avoids requesting the geolocation permission on page load
+Users are mistrustful of or confused by sites that request their location without context. Consider tying the request
+to a user action instead. Learn more about the geolocation permission.
+Avoids requesting the notification permission on page load
+Users are mistrustful of or confused by sites that request to send notifications without context. Consider tying the
+request to user gestures instead. Learn more about responsibly getting permission for notifications.
+Displays images with correct aspect ratio
+Image display dimensions should match natural aspect ratio. Learn more about image aspect ratio.
+Serves images with appropriate resolution
+Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity.
+Learn how to provide responsive images.
+Page has the HTML doctype
+Specifying a doctype prevents the browser from switching to quirks-mode. Learn more about the doctype
+declaration.
+Properly defines charset
+A character encoding declaration is required. It can be done with a <meta> tag in the first 1024 bytes of the HTML or
+in the Content-Type HTTP response header. Learn more about declaring the character encoding.
+No browser errors logged to the console
+Errors logged to the console indicate unresolved problems. They can come from network request failures and other
+browser concerns. Learn more about this errors in console diagnostic audit
+No issues in the Issues panel in Chrome Devtools
+Issues logged to the Issues panel in Chrome Devtools indicate unresolved problems. They can come from network
+request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome
+DevTools for more details on each issue.
+Page has valid source maps
+Source maps translate minified code to the original source code. This helps developers debug in production. In
+addition, Lighthouse is able to provide further insights. Consider deploying source maps to take advantage of these
+benefits. Learn more about source maps.Unscored
+localhost1st Party
+…pages/TestRide.tsx?t=177…
+…pages/NotFound.tsx
+…pages/Index.tsx?t=177…
+…pages/Finance.tsx?t=177…
+…pages/Dealers.tsx?t=177…
+…pages/Compare.tsx?t=177…
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Map URL
+16/05/2026, 21:07 about:blank
+about:blank 19/23
+/src/main.tsx?t=177…
+…lib/utils.ts
+…hooks/use-toast.ts
+…ui/tooltip.tsx
+…ui/toaster.tsx
+…ui/toast.tsx
+…ui/textarea.tsx
+…ui/sonner.tsx
+…ui/select.tsx
+…ui/label.tsx
+…ui/input.tsx
+…ui/button.tsx
+…components/ScrollToTop.tsx
+…components/QuickActions.tsx?t=177…
+…components/ProductShowcase.tsx?t=177…
+…components/Navbar.tsx?t=177…
+…components/HeroSection.tsx?t=177…
+…components/Footer.tsx?t=177…
+…components/FeatureMarquee.tsx
+…components/ContactForm.tsx?t=177…
+…components/AdvantageSection.tsx?t=177…
+…assets/Wexpro_Square.png?import
+…assets/Wexpro_Square.jpeg?import
+…assets/Wexpro_Round.png?import
+…assets/Wexpro_Round.jpeg?import
+…assets/vintage-1990.png?import
+…assets/Truss.png?import
+…assets/Truss_2X.jpeg?import
+…assets/Trigger_3x.png?import
+…assets/Trigger_3X.jpeg?import
+…assets/Trench.png?import
+…assets/Trench_X.jpeg?import
+…assets/Sport.jpeg?import
+…assets/Sport_Pro.png?import
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Map URL
+16/05/2026, 21:07 about:blank
+about:blank 20/23
+…assets/Sport_Pro.jpeg?import
+…assets/logo.jpeg?import
+…assets/hero-okoyama.jpg?import
+…assets/Eagle_Eye.png?import
+…assets/Eagle_Eye.jpeg?import
+/src/App.tsx?t=177…
+…client/env.mjs
+…deps/tailwind-merge.js?v=83f59024 …deps/tailwind-merge.js.map
+…deps/sonner.js?v=c1332cfd …deps/sonner.js.map
+…deps/react.js?v=c2b37196 …deps/react.js.map
+…deps/react-router-dom.js?v=b369c919 …deps/react-router-dom.js.map
+…deps/react-dom_client.js?v=6a236c90 …deps/react-dom_client.js.map
+…deps/react_jsx-dev-runtime.js?v=d72e4816 …deps/react_jsx-dev-runtime.js.map
+…deps/next-themes.js?v=2f26ad56 …deps/next-themes.js.map
+…deps/lucide-react.js?v=6e47ca36 …deps/lucide-react.js.map
+…deps/framer-motion.js?v=ea2e3900 …deps/framer-motion.js.map
+…deps/clsx.js?v=29c647f3 …deps/clsx.js.map
+…deps/class-variance-authority.js?
+v=89f74a8f
+…deps/class-variance-
+authority.js.map
+…deps/chunk-U7P2NEEE.js?v=0e4ba5be …deps/chunk-U7P2NEEE.js.map
+…deps/chunk-TKKDXAJF.js?v=0e4ba5be …deps/chunk-TKKDXAJF.js.map
+…deps/chunk-S77I6LSE.js?v=0e4ba5be …deps/chunk-S77I6LSE.js.map
+…deps/chunk-R6S4VRB5.js?v=0e4ba5be …deps/chunk-R6S4VRB5.js.map
+…deps/chunk-I5P2TV6F.js?v=0e4ba5be …deps/chunk-I5P2TV6F.js.map
+…deps/chunk-FF6ZKGQN.js?v=0e4ba5be …deps/chunk-FF6ZKGQN.js.map
+…deps/chunk-F6LE7H43.js?v=0e4ba5be …deps/chunk-F6LE7H43.js.map
+…deps/chunk-CS6ACPL6.js?v=0e4ba5be …deps/chunk-CS6ACPL6.js.map
+…deps/chunk-5T2EPWID.js?v=0e4ba5be …deps/chunk-5T2EPWID.js.map
+…deps/chunk-4MBMRILA.js?v=0e4ba5be …deps/chunk-4MBMRILA.js.map
+…deps/chunk-3TFVT2CW.js?v=0e4ba5be …deps/chunk-3TFVT2CW.js.map
+…deps/@tanstack_react-query.js?v=d5aca2f6 …deps/@tanstack_react-query.js.map
+…deps/@radix-ui_react-tooltip.js?
+v=8f20b448 …deps/@radix-ui_react-tooltip.js.map
+…deps/@radix-ui_react-toast.js?v=38c9f276 …deps/@radix-ui_react-toast.js.map
+…deps/@radix-ui_react-slot.js?v=dc1ae348 …deps/@radix-ui_react-slot.js.map
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+URL Map URL
+16/05/2026, 21:07 about:blank
+about:blank 21/23
+These checks ensure that your page is following basic search engine
+optimization advice. There are many additional factors Lighthouse
+does not score here that may affect your search ranking, including
+performance on Core Web Vitals. Learn more about Google Search
+Essentials.
+…deps/@radix-ui_react-select.js?v=e035f947 …deps/@radix-ui_react-select.js.map
+…deps/@radix-ui_react-label.js?v=5b1176b7 …deps/@radix-ui_react-label.js.map
+/@vite/client
+/@react-refresh
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+(lo c a lh o st)
+NOT APPLICABLE(2) Hide
+Redirects HTTP traffic to HTTPS
+Make sure that you redirect all HTTP traffic to HTTPS in order to enable secure web features for all your users. Learn
+more.Unscored
+Detected JavaScript libraries
+All front-end JavaScript libraries detected on the page. Learn more about this JavaScript library detection diagnostic
+audit.Unscored
+SEO
+100
+ADDITIONAL ITEMS TO MANUALLY CHECK(1) Hide
+Structured data is valid
+Run the Structured Data Testing Tool to validate structured data. Learn more about Structured Data.Unscored
+Run these additional validators on your site to check additional SEO best practices.
+PASSED AUDITS(10) Hide
+Page isnʼt blocked from indexing
+Search engines are unable to include your pages in search results if they don't have permission to crawl them. Learn
+more about crawler directives.
+Document has a <title> element
+The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if
+a page is relevant to their search. Learn more about document titles.
+Document has a meta description
+Meta descriptions may be included in search results to concisely summarize page content. Learn more about the
+meta description.
+Page has successful HTTP status code
+Pages with unsuccessful HTTP status codes may not be indexed properly. Learn more about HTTP status codes.
+Links have descriptive text
+URL Map URL
+16/05/2026, 21:07 about:blank
+about:blank 22/23
+Generated by Lighthouse13.0.2 | File an issue
+Descriptive link text helps search engines understand your content. Learn how to make links more accessible.
+Links are crawlable
+Search engines may use href attributes on links to crawl websites. Ensure that the href attribute of anchor
+elements links to an appropriate destination, so more pages of the site can be discovered. Learn how to make links
+crawlable
+robots.txt is valid
+If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled
+or indexed. Learn more about robots.txt.
+Image elements have [alt] attributes
+Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an
+empty alt attribute. Learn more about the alt attribute.
+Document has a valid hreflang
+hreflang links tell search engines what version of a page they should list in search results for a given language or
+region. Learn more about hreflang.
+Document has a valid rel=canonical
+Canonical links suggest which URL to show in search results. Learn more about canonical links.
+Captured at May 16, 2026,
+9:06 PM GMT+5:30
+Emulated Desktop with
+Lighthouse 13.0.2
+Single page session
+Initial page load
+ Custom throttling
+ Using Chromium 148.0.0.0
+with devtools
+16/05/2026, 21:07 about:blank
+about:blank 23/23
