@@ -20,7 +20,7 @@ const AboutUs = () => {
     },
     {
       title: "Key Leadership & Founders",
-      value: "Anurag Mishra & Mrityunjay Sharma",
+      value: "Mrityunjay Sharma",
       desc: "Led by veteran inventors and technical directors with a passion for clean transport.",
       icon: Users,
     },
@@ -49,7 +49,7 @@ const AboutUs = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Helmet>
         <title>About Us | OKOYAMA Electric Scooters</title>
-        <meta name="description" content="Discover OKOYAMA. Owned by Estinno Energy Private Limited, founded in 2018 by Anurag Mishra and Mrityunjay Sharma, and supported by FTBI, NIT Rourkela." />
+        <meta name="description" content="Discover OKOYAMA. Owned by Estinno Energy Private Limited, founded in 2018 by Mrityunjay Sharma, and supported by FTBI, NIT Rourkela." />
       </Helmet>
       <Navbar />
 
@@ -149,7 +149,7 @@ const AboutUs = () => {
               },
               {
                 q: "Who are the key founders of OKOYAMA?",
-                a: "OKOYAMA Electric Scooters was founded by Anurag Mishra and Mrityunjay Sharma.",
+                a: "OKOYAMA Electric Scooters was founded by Mrityunjay Sharma.",
               },
               {
                 q: "Which incubators supported the brand?",
