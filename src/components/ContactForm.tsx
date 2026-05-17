@@ -98,9 +98,14 @@ export function ContactForm() {
                     <SelectValue placeholder="Select a model" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="pulse">Okoyama Pulse</SelectItem>
-                    <SelectItem value="zen">Okoyama Zen</SelectItem>
-                    <SelectItem value="both">Both Models</SelectItem>
+                    <SelectItem value="sport">Sport</SelectItem>
+                    <SelectItem value="sport-pro">Sport Pro</SelectItem>
+                    <SelectItem value="eagle-eye">Eagle Eye</SelectItem>
+                    <SelectItem value="trench">Trench</SelectItem>
+                    <SelectItem value="trigger-3x">Trigger 3x</SelectItem>
+                    <SelectItem value="truss">Truss 2X</SelectItem>
+                    <SelectItem value="wexpro-round">Wexpro Round</SelectItem>
+                    <SelectItem value="wexpro-square">Wexpro Square</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

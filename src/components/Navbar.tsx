@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
-  { label: "Sport", href: "#sport" },
-  { label: "Sport Pro", href: "#sport-pro" },
-  { label: "Eagle Eye", href: "#eagle-eye" },
-  { label: "Trench", href: "#trench" },
-  { label: "Trigger 3x", href: "#trigger-3x" },
-  { label: "Truss 2X", href: "#truss" },
-  { label: "Wexpro Round", href: "#wexpro-round" },
-  { label: "Wexpro Square", href: "#wexpro-square" },
+  { label: "Sport", href: "/sport" },
+  { label: "Sport Pro", href: "/sport-pro" },
+  { label: "Eagle Eye", href: "/eagle-eye" },
+  { label: "Trench", href: "/trench" },
+  { label: "Trigger 3x", href: "/trigger-3x" },
+  { label: "Truss 2X", href: "/truss" },
+  { label: "Wexpro Round", href: "/wexpro-round" },
+  { label: "Wexpro Square", href: "/wexpro-square" },
 ];
 
 const quickLinks = [
@@ -65,13 +65,13 @@ export function Navbar() {
             <div className="absolute top-full left-0 mt-0 w-56 py-2 rounded-xl bg-card border border-border shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
               <div className="grid gap-1 px-1">
                 {navLinks.map((link) => (
-                  <a
+                  <Link
                     key={link.label}
-                    href={window.location.pathname === '/' ? link.href : `/${link.href}`}
+                    to={link.href}
                     className="block px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded-lg transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -126,14 +126,14 @@ export function Navbar() {
               <div className="space-y-4">
                 <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Models</p>
                 {navLinks.map((link) => (
-                  <a
+                  <Link
                     key={link.label}
-                    href={window.location.pathname === '/' ? link.href : `/${link.href}`}
+                    to={link.href}
                     className="block py-1 text-lg font-medium text-foreground"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
 
