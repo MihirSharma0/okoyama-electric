@@ -22,6 +22,7 @@ const quickLinks = [
   { label: "Compare Models", href: "/compare" },
   { label: "Finance", href: "/finance" },
   { label: "Find a Dealer", href: "/dealers" },
+  { label: "About Us", href: "/about-us" },
 ];
 
 export function Navbar() {
