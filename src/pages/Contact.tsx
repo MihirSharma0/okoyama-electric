@@ -104,7 +104,7 @@ const Contact = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-wider font-semibold text-muted-foreground">Email Address</label>
-                  <Input type="email" placeholder="john@example.com" className="bg-secondary/20" required />
+                  <Input type="email" placeholder="support@okoyama.com" className="bg-secondary/20" required />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-wider font-semibold text-muted-foreground">Message</label>
