@@ -305,6 +305,9 @@ export function ProductShowcase() {
                   <div className="mb-8">
                     <h3 className="text-2xl font-display font-bold mb-2 text-gradient-gold">Experience It Yourself</h3>
                     <p className="text-muted-foreground text-sm font-medium">Schedule your premium test ride experience today.</p>
+                    <p className="text-xs text-primary font-medium mt-1">
+                      Or call <strong className="text-foreground">Okoyama Electric</strong> at <strong className="text-foreground">+91 62890 12253</strong>
+                    </p>
                   </div>
 
                   <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>

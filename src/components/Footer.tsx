@@ -25,7 +25,7 @@ const footerLinks = {
     { label: "Careers", href: "/careers" },
     { label: "Press", href: "/press" },
     { label: "Investor Relations", href: "/investor-relations" },
-    { label: "Contact", href: "/contact" },
+    { label: "Contact Us", href: "/contact-us" },
   ],
   "Support": [
     { label: "FAQs", href: "/faqs" },

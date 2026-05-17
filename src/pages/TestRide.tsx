@@ -21,8 +21,11 @@ const TestRide = () => {
                     className="max-w-xl mx-auto text-center"
                 >
                     <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">Book a Test Ride</h1>
-                    <p className="text-muted-foreground mb-12">
+                    <p className="text-muted-foreground mb-4">
                         Experience the future of mobility. Fill out the form below and our team will contact you shortly.
+                    </p>
+                    <p className="text-sm text-primary font-medium mb-12">
+                        Need immediate assistance? Call <strong className="text-foreground">Okoyama Electric</strong> at <strong className="text-foreground">+91 62890 12253</strong>
                     </p>
 
                     <form className="space-y-6 text-left p-8 rounded-2xl bg-card border border-border">

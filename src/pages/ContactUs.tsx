@@ -2,13 +2,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet-async";
-import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 
-const Contact = () => {
+const ContactUs = () => {
   const infoItems = [
     {
       title: "Customer Support",
@@ -124,4 +124,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;

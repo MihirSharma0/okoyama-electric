@@ -31,6 +31,7 @@ import Careers from "./pages/Careers";
 import Press from "./pages/Press";
 import InvestorRelations from "./pages/InvestorRelations";
 import Contact from "./pages/Contact";
+import ContactUs from "./pages/ContactUs";
 import FAQs from "./pages/FAQs";
 import WarrantyPolicy from "./pages/WarrantyPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -78,6 +79,7 @@ const App = () => (
             <Route path="/press" element={<Press />} />
             <Route path="/investor-relations" element={<InvestorRelations />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             
             {/* Support Pages */}
             <Route path="/faqs" element={<FAQs />} />
